@@ -1,4 +1,3 @@
-@import "node_modules/bulma/bulma";
 
 @media screen and (min-width: 1024px){
   .home-hero{
@@ -21,4 +20,8 @@
 
 .navbar {
   text-transform: uppercase;
+}
+
+code, pre {
+  -webkit-font-smoothing: antialiased;
 }
