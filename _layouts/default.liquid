@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <link rel="stylesheet" href="/app.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+</head>
+<body>
+<header class="section is-hidden-touch has-text-black">
+    <div class="container">
+        <div class="columns">
+            <div class="column">
+                <div class="media">
+                    <div class="media-left"><i class="fas fa-map-marker-alt fa-2x has-text-warning" aria-hidden="true"></i></div>
+                    <div class="media-content"><span class="is-sr-only">Address</span> 323 S Houston Lake Rd<br>
+                        Warner Robins, GA 31088</div>
+                </div>
+                <div class="media">
+                    <div class="media-left"><i class="far fa-clock fa-2x has-text-warning" aria-hidden="true"></i></div>
+                    <div class="media-content"><span class="is-sr-only">Hours</span> Mon - Fri: 7:30 am - 5:00 pm</div>
+                </div>
+            </div>
+            <div class="column">
+                <img src="/assets/Electrical%20Supply%20small%20logo.png" alt="">
+            </div>
+            <div class="column">
+                <p class="has-text-centered">
+                    <i class="fas fa-phone fa-2x has-text-warning" aria-hidden="true"></i><span class="is-sr-only">Telephone</span>
+                    <span class="is-size-2">(478) 333-2978</span><br>Call Us
+                </p>
+            </div>
+        </div>
+    </div>
+</header>
+<nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <a href="/" class="navbar-item"><img src="/assets/Electrical%20Supply%20small%20logo.png" alt="" class="white-shadow"></a>
+        <a role="button" aria-label="menu" aria-expanded="false" class="navbar-burger" data-target="navMenu">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+    </div>
+    <div class="navbar-menu" id="navMenu">
+        <div class="navbar-start">
+            <a class="navbar-item" href="/">Home</a>
+            <a class="navbar-item" href="/who-we-are">Who We Are</a>
+            <a class="navbar-item" href="/featured-products">Featured Products</a>
+            <a class="navbar-item" href="/vendors">Vendors</a>
+            <a class="navbar-item" href="/contact">Contact Us</a>
+        </div>
+    </div>
+</nav>
+{{ content }}
+<footer class="section has-background-grey has-text-white">
+    <div class="container">
+        <div class="columns">
+            <section class="column">
+                <dl>
+                    <dt>Address</dt>
+                    <dd>
+                        323 S Houston Lake Rd
+                    </dd>
+                    <dd>    Warner Robins, GA 31088
+                    </dd>
+                    <dt>Phone</dt>
+                    <dd>    (478) 333-2978
+                    </dd>
+                    <dt>Email</dt>
+                    <dd>    sbreland@electricsupplyllc.com
+                    </dd>
+                </dl>
+            </section>
+
+            <section class="column">
+                <dl>
+                    <dt>Mon - Fri: 7:30 am - 5:00 pm</dt>
+                    <dt>Sat - Sun: Closed</dt>
+                </dl>
+            </section>
+
+            <section class="column">
+                Call us today to speak with our staff!
+            </section>
+        </div>
+    </div>
+
+</footer>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+
+        // Get all "navbar-burger" elements
+        const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+    // Check if there are any navbar burgers
+    if ($navbarBurgers.length > 0) {
+
+        // Add a click event on each of them
+        $navbarBurgers.forEach( el => {
+            el.addEventListener('click', () => {
+
+            // Get the target from the "data-target" attribute
+            const target = el.dataset.target;
+        const $target = document.getElementById(target);
+
+        // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+        el.classList.toggle('is-active');
+        $target.classList.toggle('is-active');
+
+    });
+    });
+    }
+
+    });
+</script>
+</body>
+</html>
