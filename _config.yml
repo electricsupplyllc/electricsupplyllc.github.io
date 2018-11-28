@@ -14,10 +14,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: "Electric Supply Macon, Georgia"
-email:
+email: "mike@mikeritteronline.com"
 description: "Electric Supply, LLC providing residential and commercial electrical supplies to builders and contractors in and near Macon, Georgia."
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "http://electricsupplyllc.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 markdown: kramdown
