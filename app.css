@@ -6684,6 +6684,9 @@ label.panel-block {
 .navbar {
   text-transform: uppercase; }
 
+.navbar-start {
+  margin: auto; }
+
 code, pre {
   -webkit-font-smoothing: antialiased; }
 
