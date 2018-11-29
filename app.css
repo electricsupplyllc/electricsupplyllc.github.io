@@ -6690,4 +6690,7 @@ label.panel-block {
 code, pre {
   -webkit-font-smoothing: antialiased; }
 
+.media + .media {
+  border-top: none; }
+
 /*# sourceMappingURL=app.css.map */

@@ -30,3 +30,7 @@
 code, pre {
   -webkit-font-smoothing: antialiased;
 }
+
+.media + .media {
+  border-top: none;
+}
