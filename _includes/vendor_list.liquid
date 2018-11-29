@@ -1,7 +1,12 @@
 {% for vendor in site.data.vendors %}
-    <span style="margin: auto 1rem">
+    <span style="margin: 1rem">
         <a href="{{ vendor.url }}">
-            <img src="{{ vendor.logo }}" alt="{{ vendor.name }}" style="max-width: 128px;">
+            <img src="{{ vendor.logo }}" alt="{{ vendor.name }}" style="max-width: 256px;
+  -webkit-filter: drop-shadow(2px 1px 0 black)
+                  drop-shadow(-1px -1px 0 black);
+  filter: drop-shadow(2px 1px 0 black)
+          drop-shadow(-1px -1px 0 black);
+}">
         </a>
     </span>
 {% endfor %}
