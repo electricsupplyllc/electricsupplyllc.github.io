@@ -1,13 +1,20 @@
 ---
 layout: page
 title: Electric Supply Vendors in Warner Robins, GA
+
 ---
 <header class="hero">
-    <div class="hero-body">
+    <div class="hero-body has-text-centered">
         <h1 class="title">{{page.title}}</h1>
     </div>
 </header>
 <div class="section has-text-centered is-size-4">
-    <p>We have partnered with a variety of vendors to better serve our customers. We stock only quality brands and materials to ensure the longevity of all of our electric parts, products, and tools. If you need help finding something, or think that we do not have it in stock, feel free to come to a member of our staff to help. They are trained to provide exceptional customer service and are knowledgable in our entire inventory and vendor relationships.
-    </p>
+    <div class="container">
+        <p>We have partnered with a variety of vendors to better serve our customers. We stock only quality brands and materials to ensure the longevity of all of our electric parts, products, and tools. If you need help finding something, or think that we do not have it in stock, feel free to come to a member of our staff to help. They are trained to provide exceptional customer service and are knowledgable in our entire inventory and vendor relationships.
+        </p>
+        <hr>
+        <div>
+            {% include vendor_list.liquid %}
+        </div>
+    </div>
 </div>

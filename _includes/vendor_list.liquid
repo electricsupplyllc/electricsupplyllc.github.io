@@ -1,0 +1,7 @@
+{% for vendor in site.data.vendors %}
+    <span style="margin: auto 1rem">
+        <a href="{{ vendor.url }}">
+            <img src="{{ vendor.logo }}" alt="{{ vendor.name }}" style="max-width: 128px;">
+        </a>
+    </span>
+{% endfor %}

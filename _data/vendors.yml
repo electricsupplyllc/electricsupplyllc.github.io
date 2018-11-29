@@ -1,0 +1,87 @@
+- name: Copper wiring
+  url: http://www.cooperindustries.com/content/public/en/wiring_devices.html
+  logo: http://www.cooperindustries.com/apps/public/docroot/images/bootstrap/logoEaton.png
+- name: Cooper Bussmann
+  url: http://www.cooperindustries.com/content/public/en/bussmann.html
+  logo: http://www.cooperindustries.com/apps/public/docroot/images/bootstrap/logoEaton.png
+- name: Morris
+  url: https://www.morrisproducts.com/
+  logo: https://www.morrisproducts.com/templates/gfx/logo.gif
+- name: PHD Manufacturing
+  url: https://phd-mfg.com/
+  logo: https://phd-mfg.com/app/themes/phd-mfg/assets/images/logo-large.png
+- name: Madison Electric
+  url: http://meproducts.net/
+  logo: http://meproducts.net/themes/new-blue/assets/images/logo.gif
+- name: Republic Wire
+  url: https://www.republicwire.com/
+  logo: https://www.republicwire.com/images/wire-logo-60.png
+- name: Halco Lighting
+  url: https://www.halcolighting.com/
+  logo: https://www.halcolighting.com/themes/halco/images/logotype.png
+- name: EBox
+  url: http://e-boxenclosures.com/
+  logo: http://e-boxenclosures.com/images/logo.gif
+- name: IPEX
+  url: http://www.ipexna.com/usa/
+  logo: http://www.ipexna.com/media/1012/logo.png
+- name: Cameron Wire and Cable
+  url: http://cameronwire.com/
+  logo: http://cameronwire.com/assets/cameron_logo50.png
+- name: Galvan Industries
+  url: https://www.galvanelectrical.com/
+  logo: https://www.galvanelectrical.com/css/images/logo.png
+- name: Keystone Light
+  url: http://keystonetech.com/
+  logo:
+- name: Nicor
+  url: https://nicorlighting.com/
+  logo: https://nicorlighting.com/wp-content/uploads/2018/08/NICOR_LogoWH-F.png
+- name: Orbit
+  url: https://www.orbitelectric.com/
+  logo: https://www.orbitelectric.com/skin/frontend/default/ma_hightechstore/images/logo.png
+- name: Midwest electric
+  url: https://www.midwestelectric.com/
+  logo: https://www.midwestelectric.com/profiles/ge/themes/ge_responsive/css/sites/gemwe/images/logo.jpg
+- name: USI Electric
+  url: https://universalsecurity.com/
+  logo: https://universalsecurity.com/images/universal-security-instruments-usi-electric-logo.png
+- name: NSI Industries
+  url: http://www.nsiindustries.com/
+  logo: http://www.nsiindustries.com/Images/nsiindustries/NSilogo.png
+- name: Simkar
+  url: http://www.simkar.com/
+  logo: http://www.simkar.com/wp-content/uploads/2015/06/simkar-logo-bitmap.png
+- name: Teddico Electrical
+  url: http://www.teddico.com/
+  logo: http://www.teddico.com/wp-content/uploads/2017/08/cropped-Teddico-BWF_LOGO-sm.png
+- name: CREE LED
+  url: https://www.cree.com/
+  logo: https://www.cree.com/skin/frontend/rwd/cree/images/cree_logo.svg
+- name: Orion
+  url: https://www.orionlighting.com/
+  logo: https://www.orionlighting.com/wp-content/uploads/2017/05/orion_wt-bl-gn-TM-1.png
+- name: Verbatim
+  url: https://www.verbatimlighting.com/home
+  logo: https://www.verbatimlighting.com/assets/img/interface/logo_verbatim.svg
+- name: WF Harris Lighting
+  url: https://wfharris.com/
+  logo: https://wfharris.com/images/background_images/wfharris-design_4b_02.jpg
+- name: United Pipe
+  url: https://www.unitedpipe.com/
+  logo: https://v2assets.zopim.io/64jvRoPkUsUIC2LrojyYNN5HSon0Z70e-concierge?1539370004786
+- name: Republic Conduit
+  url: http://www.republicconduit.com/
+  logo: http://www.republicconduit.com/wp-content/themes/independence-tube/library/images/Nucor%20Tubular%20Products_White%20and%20Green.png
+- name: EPCO Engineering
+  url: https://www.engproducts.com/
+  logo: https://www.engproducts.com/sites/all/themes/epco/images/logo.svg
+- name: Air King
+  url: http://airkinglimited.com/
+  logo: http://www.airkinglimited.com/image/AKLogoOvalGrad11.png
+- name: Yancey Wire
+  url: http://www.yanceywire.com/
+  logo: http://www.yanceywire.com/images/yanceylogo.png
+- name: MGM Transformer
+  url: https://www.mgmtransformer.com/
+  logo: https://www.mgmtransformer.com/wp-content/themes/mgm/images/logo.png
