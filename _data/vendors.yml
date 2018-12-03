@@ -1,8 +1,5 @@
-- name: Copper wiring
+- name: Copper wiring and Bussman
   url: http://www.cooperindustries.com/content/public/en/wiring_devices.html
-  logo: http://www.cooperindustries.com/apps/public/docroot/images/bootstrap/logoEaton.png
-- name: Cooper Bussmann
-  url: http://www.cooperindustries.com/content/public/en/bussmann.html
   logo: http://www.cooperindustries.com/apps/public/docroot/images/bootstrap/logoEaton.png
 - name: Morris
   url: https://www.morrisproducts.com/
