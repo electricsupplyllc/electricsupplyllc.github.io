@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="no"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" height="644" width="1320">
+    <style>
+        .electricsupply-font{
+            font-family: FuturaPT-BoldObl, sans-serif;
+        }
+    </style>
+    <polygon points="1320,0 1103,9 869,257 998,255 797,471 883,466 720,643 1112,422 975,419 1234,215 1090,215" style="stroke: #1d1b90; stroke-width: 3px; fill: none;"></polygon>
+    <text x="0" y="100" fill="#1d1b90" style="font-size: 144px;" class="electricsupply-font">E</text>
+    <text x="100" y="100" fill="#1d1b90" style="font-size: 72px">LECTRIC</text>
+    <text x="0" y="300" fill="#1d1b90" style="font-size: 144px">S</text>
+    <text x="100" y="300" fill="#1d1b90" style="font-size: 72px">UPPLY</text>
+</svg>

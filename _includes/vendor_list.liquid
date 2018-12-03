@@ -1,12 +1,14 @@
-{% for vendor in site.data.vendors %}
-    <span style="margin: 1rem">
-        <a href="{{ vendor.url }}">
-            <img src="{{ vendor.logo }}" alt="{{ vendor.name }}" style="max-width: 256px;
-  -webkit-filter: drop-shadow(2px 1px 0 black)
-                  drop-shadow(-1px -1px 0 black);
-  filter: drop-shadow(2px 1px 0 black)
-          drop-shadow(-1px -1px 0 black);
+<div style="display: flex; flex-wrap: wrap">
+    {% for vendor in site.data.vendors %}
+        <div style="margin: 1em auto; border: solid 1px red">
+            <a href="{{ vendor.url }}">
+                <img src="{{ vendor.logo }}" alt="{{ vendor.name }}" style="max-width: 256px;
+  -webkit-filter: drop-shadow(1px 1px 0 #666)
+                  drop-shadow(-1px -1px 0 #666);
+  filter: drop-shadow(1px 1px 0 #666)
+          drop-shadow(-1px -1px 0 #666);
 }">
-        </a>
-    </span>
+            </a>
+        </div>
 {% endfor %}
+</div>
