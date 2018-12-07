@@ -41,7 +41,7 @@
             </stop>
             <stop offset="100%" stop-color="#fff152"></stop>
         </linearGradient>
-        <polygon id="yellow-lightning-bolt" points="597,3 380,9 146,257 275,255 74,471 160,466 3,643 392,422 255,419 514,215 370,215" style="stroke: #1d1b90; stroke-width: 3px; fill:#fff152;"></polygon>
+        <polygon id="yellow-lightning-bolt" points="597,3 380,9 146,257 275,255 74,471 160,466 3,643 392,422 255,419 514,215 370,215" style="stroke: #1d1b90; stroke-width: 0; fill:#fff152;"></polygon>
         <polygon id="lightning-bolt-shimmer" points="597,3 380,9 146,257 275,255 74,471 160,466 3,643 392,422 255,419 514,215 370,215" class="shimmer"></polygon>
     </defs>
     <!-- <polygon points="1320,0 1103,9 869,257 998,255 797,471 883,466 720,643 1112,422 975,419 1234,215 1090,215" style="stroke: #1d1b90; stroke-width: 3px; fill: #fff152;"></polygon> -->
