@@ -21,12 +21,32 @@
         font-weight: 700;
         font-size: 240px;
         }
+        .shimmer {
+            fill: url(#shimmer);
+        }
     </style>
     <defs>
-        <polygon id="lightning-bolt" points="597,3 380,9 146,257 275,255 74,471 160,466 3,643 392,422 255,419 514,215 370,215" style="stroke: #1d1b90; stroke-width: 3px; fill: #fff152;"></polygon>
+        <!--
+        <linearGradient id="shimmer" x1="0" x2="0" y1="0" y2="1">
+            <stop offset="0%" stop-color="#fff152"></stop>
+            <stop offset="30%" stop-color="#ffffff"></stop>
+            <stop offset="100%" stop-color="#fff152"></stop>
+        </linearGradient>
+        -->
+
+        <linearGradient id="shimmer" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#fff152"></stop>
+            <stop offset="0%" stop-color="#ffffff">
+                <animate attributeName="offset" values=".0;1" dur="1s" repeatCount="indefinite"></animate>
+            </stop>
+            <stop offset="100%" stop-color="#fff152"></stop>
+        </linearGradient>
+        <polygon id="yellow-lightning-bolt" points="597,3 380,9 146,257 275,255 74,471 160,466 3,643 392,422 255,419 514,215 370,215" style="stroke: #1d1b90; stroke-width: 3px; fill:#fff152;"></polygon>
+        <polygon id="lightning-bolt-shimmer" points="597,3 380,9 146,257 275,255 74,471 160,466 3,643 392,422 255,419 514,215 370,215" class="shimmer"></polygon>
     </defs>
     <!-- <polygon points="1320,0 1103,9 869,257 998,255 797,471 883,466 720,643 1112,422 975,419 1234,215 1090,215" style="stroke: #1d1b90; stroke-width: 3px; fill: #fff152;"></polygon> -->
-    <use x="720" y="0" xlink:href="#lightning-bolt"></use>
+    <use x="720" y="0" xlink:href="#yellow-lightning-bolt"></use>
+    <use x="720" y="0" xlink:href="#lightning-bolt-shimmer"></use>
     <g id="text" class="" fill="#1d1b90">
         <g>
             <text x="0" y="280" class="electricsupply-font-large">E</text>
