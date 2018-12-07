@@ -8,6 +8,10 @@
     background-attachment: fixed;
     background-size: cover;
   }
+
+  #navMenu .navbar-item:hover{
+    font-size: 1.25em;
+  }
 }
 
 .tile .is-child {
@@ -34,3 +38,4 @@ code, pre {
 .media + .media {
   border-top: none;
 }
+
