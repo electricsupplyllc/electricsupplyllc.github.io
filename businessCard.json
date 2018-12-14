@@ -1,0 +1,20 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Store",
+  "name": "Electric Supply, LLC",
+  "description": "Warner Robins' Source For Electric Products, Parts, and Tools",
+  "openingHours": "Mo-Fr 07:30-17:00",
+  "telephone": "+14783332978",
+  "address":
+  {
+    "@type": "PostalAddress",
+    "streetAddress": "323 S Houston Lake Rd",
+    "addressLocality": "Warner Robins",
+    "addressRegion": "GA",
+    "addressCountry": "USA",
+    "postalCode": "31088"
+  },
+  "url": "http://electricsupplyllc.com",
+  "logo": "http://electricsupplyllc.com/assets/Electrical%20Supply%20small%20logo.png",
+  "image": "http://ectricsupplyllc.com/assets/JPEG/20181029_115940.jpg"
+}
