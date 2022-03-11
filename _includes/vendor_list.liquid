@@ -2,12 +2,7 @@
     {% for vendor in site.data.vendors %}
         <div style="margin: 1em auto; padding: 0 1rem">
             <a href="{{ vendor.url }}">
-                <img src="{{ vendor.logo }}" alt="{{ vendor.name }}" style="max-width: 256px;
-  -webkit-filter: drop-shadow(1px 1px 0 #666)
-                  drop-shadow(-1px -1px 0 #666);
-  filter: drop-shadow(1px 1px 0 #666)
-          drop-shadow(-1px -1px 0 #666);
-}">
+                <img src="{{ vendor.logo }}" alt="{{ vendor.name }}" style="max-width: 256px;}">
             </a>
         </div>
 {% endfor %}
