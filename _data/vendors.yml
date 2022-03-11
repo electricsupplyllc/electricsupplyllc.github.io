@@ -1,15 +1,9 @@
-- name: Copper wiring and Bussman
-  url: http://www.cooperindustries.com/content/public/en/wiring_devices.html
-  logo: http://www.cooperindustries.com/apps/public/docroot/images/bootstrap/logoEaton.png
 - name: Morris
   url: https://www.morrisproducts.com/
   logo: https://www.morrisproducts.com/templates/gfx/logo.gif
 - name: PHD Manufacturing
   url: https://phd-mfg.com/
-  logo: http://phd-mfg.com/app/themes/phd-mfg/assets/images/logo-large.png
-- name: Madison Electric
-  url: http://meproducts.net/
-  logo: http://meproducts.net/themes/new-blue/assets/images/logo.gif
+  logo: https://phd-mfg.com/wp-content/uploads/2015/10/logo-top.png
 - name: Republic Wire
   url: https://www.republicwire.com/
   logo: https://www.republicwire.com/images/wire-logo-60.png
@@ -27,7 +21,7 @@
   logo: http://cameronwire.com/assets/cameron_logo50.png
 - name: Galvan Industries
   url: https://www.galvanelectrical.com/
-  logo: http://www.galvanelectrical.com/css/images/logo.png
+  logo: https://galvanelectrical.com/wp-content/uploads/2019/01/logo.png
 - name: Keystone Light
   url: http://keystonetech.com/
   logo:
@@ -46,9 +40,6 @@
 - name: NSI Industries
   url: http://www.nsiindustries.com/
   logo: http://www.nsiindustries.com/Images/nsiindustries/NSilogo.png
-- name: Simkar
-  url: http://www.simkar.com/
-  logo: http://www.simkar.com/wp-content/uploads/2015/06/simkar-logo-bitmap.png
 - name: Teddico Electrical
   url: http://www.teddico.com/
   logo: http://www.teddico.com/wp-content/uploads/2017/08/cropped-Teddico-BWF_LOGO-sm.png
